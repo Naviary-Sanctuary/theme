@@ -1,0 +1,39 @@
+{
+  "name": "naviary-sanctuary-theme",
+  "displayName": "Naviary Sanctuary Theme",
+  "description": "A dark VS Code theme",
+  "version": "0.1.0",
+  "publisher": "naviary-sanctuary",
+  "license": "MIT",
+  "icon": "images/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Naviary-Sanctuary/theme.git"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "naviary",
+    "orange"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Naviary Pastel Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/naviary-pastel-dark-theme.json"
+      },
+      {
+        "label": "Naviary Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/naviary-dark-theme.json"
+      }
+    ]
+  }
+}
