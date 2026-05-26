@@ -98,7 +98,7 @@
     "editor.foreground": "#302A22",
     "editorLineNumber.foreground": "#746A5F",
     "editorLineNumber.activeForeground": "#665D51",
-    "editorCursor.foreground": "#FF781D",
+    "editorCursor.foreground": "#23737A",
     "editorCursor.background": "#FFFCF4",
 
     "editor.selectionBackground": "#F1CBA7",
@@ -182,7 +182,7 @@
 
     "terminal.background": "#FFFCF4",
     "terminal.foreground": "#302A22",
-    "terminalCursor.foreground": "#FF781D",
+    "terminalCursor.foreground": "#23737A",
     "terminal.ansiBlack": "#302A22",
     "terminal.ansiRed": "#B93434",
     "terminal.ansiGreen": "#2F7658",

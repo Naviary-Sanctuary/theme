@@ -100,7 +100,7 @@
     "editor.foreground": "#D8DEE9",
     "editorLineNumber.foreground": "#94A0B2",
     "editorLineNumber.activeForeground": "#C7D0DC",
-    "editorCursor.foreground": "#FF781D",
+    "editorCursor.foreground": "#98C8D6",
     "editorCursor.background": "#2E3440",
 
     "editor.selectionBackground": "#434C5E",
@@ -207,7 +207,7 @@
 
     "terminal.background": "#2E3440",
     "terminal.foreground": "#D8DEE9",
-    "terminalCursor.foreground": "#FF781D",
+    "terminalCursor.foreground": "#98C8D6",
     "terminal.ansiBlack": "#94A0B2",
     "terminal.ansiRed": "#FF6B6B",
     "terminal.ansiGreen": "#B3C996",
@@ -410,7 +410,7 @@
         "support.class"
       ],
       "settings": {
-        "foreground": "#95BCD8"
+        "foreground": "#B7A6E0"
       }
     },
     {
@@ -486,12 +486,12 @@
   "semanticTokenColors": {
     "namespace": "#98C8D6",
 
-    "class": "#95BCD8",
-    "struct": "#95BCD8",
-    "type": "#95BCD8",
-    "interface": "#95BCD8",
-    "enum": "#95BCD8",
-    "typeParameter": "#98C8D6",
+    "class": "#B7A6E0",
+    "struct": "#B7A6E0",
+    "type": "#B7A6E0",
+    "interface": "#B7A6E0",
+    "enum": "#B7A6E0",
+    "typeParameter": "#B7A6E0",
 
     "parameter": "#E5E9F0",
     "variable": "#D8DEE9",
