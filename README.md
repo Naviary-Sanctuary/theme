@@ -8,12 +8,14 @@ It uses low-glare surfaces for long coding sessions, with warm orange accents fo
 
 ## Themes
 
-This extension includes four themes:
+This extension includes six themes:
 
 - **Naviary Light**: a clean light theme with crisp surfaces and warm orange accents.
 - **Naviary Pastel Light**: a softer ivory light theme with warmer, low-glare surfaces.
+- **Naviary Vivid Light**: a crisp light theme with clearer syntax separation and primary orange signals.
 - **Naviary Pastel Dark**: a softer dark theme with muted pastel accents.
 - **Naviary Dark**: a stronger dark theme with clearer contrast and warmer highlights.
+- **Naviary Vivid Dark**: a richer dark theme with more distinct syntax colors and primary orange signals.
 
 ## Design Principles
 
@@ -36,7 +38,7 @@ Then open the command palette and run:
 Preferences: Color Theme
 ```
 
-Choose **Naviary Light**, **Naviary Pastel Light**, **Naviary Pastel Dark**, or **Naviary Dark**.
+Choose **Naviary Light**, **Naviary Pastel Light**, **Naviary Vivid Light**, **Naviary Pastel Dark**, **Naviary Dark**, or **Naviary Vivid Dark**.
 
 ## Local Development
 

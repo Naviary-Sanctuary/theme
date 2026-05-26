@@ -1,7 +1,7 @@
 {
   "name": "naviary-sanctuary-theme",
   "displayName": "Naviary Sanctuary Theme",
-  "description": "A refined themes for VS Code, Windsurf, and Open VSX based editors.",
+  "description": "Comfortable light and dark themes with balanced contrast, vivid syntax colors, and Naviary orange accents.",
   "version": "0.3.1",
   "publisher": "naviary-sanctuary",
   "license": "MIT",
@@ -29,6 +29,7 @@
     "sanctuary",
     "ivory",
     "orange",
+    "vivid",
     "pastel",
     "windsurf",
     "vscode"
@@ -46,6 +47,11 @@
         "path": "./themes/naviary-pastel-light-theme.json"
       },
       {
+        "label": "Naviary Vivid Light",
+        "uiTheme": "vs",
+        "path": "./themes/naviary-vivid-light-theme.json"
+      },
+      {
         "label": "Naviary Pastel Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/naviary-pastel-dark-theme.json"
@@ -54,6 +60,11 @@
         "label": "Naviary Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/naviary-dark-theme.json"
+      },
+      {
+        "label": "Naviary Vivid Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/naviary-vivid-dark-theme.json"
       }
     ]
   }
