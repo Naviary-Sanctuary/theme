@@ -458,7 +458,7 @@
     "variable": "#302A22",
     "variable.readonly": "#3E362C",
     "property": "#23737A",
-    "property.readonly": "#23737A",
+    "property.readonly": "#302A22",
 
     "function": "#23737A",
     "method": "#23737A",

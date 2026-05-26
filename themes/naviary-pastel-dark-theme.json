@@ -497,7 +497,7 @@
     "variable": "#D8DEE9",
     "variable.readonly": "#E5E9F0",
     "property": "#98C8D6",
-    "property.readonly": "#98C8D6",
+    "property.readonly": "#E5E9F0",
 
     "function": "#98C8D6",
     "method": "#98C8D6",
