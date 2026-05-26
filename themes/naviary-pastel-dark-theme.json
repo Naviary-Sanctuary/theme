@@ -271,6 +271,17 @@
       }
     },
     {
+      "name": "This keyword",
+      "scope": [
+        "variable.language.this",
+        "variable.language.this.ts",
+        "variable.language.this.js"
+      ],
+      "settings": {
+        "foreground": "#D08770"
+      }
+    },
+    {
       "name": "Functions",
       "scope": [
         "entity.name.function",
