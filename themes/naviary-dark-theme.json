@@ -51,13 +51,15 @@
     "badge.foreground": "#1E1E1E",
     "progressBar.background": "#FF781D",
 
-    "list.activeSelectionBackground": "#4A2D1D",
+    "list.activeSelectionBackground": "#5A321F",
     "list.activeSelectionForeground": "#FFFFFF",
     "list.inactiveSelectionBackground": "#35291F",
     "list.inactiveSelectionForeground": "#CCCCCC",
-    "list.hoverBackground": "#332820",
+    "list.hoverBackground": "#3B2C23",
     "list.hoverForeground": "#FFFFFF",
     "list.highlightForeground": "#FF9A4A",
+    "list.focusBackground": "#5A321F",
+    "list.focusForeground": "#FFFFFF",
     "list.focusOutline": "#00000000",
     "list.activeSelectionIconForeground": "#FFFFFF",
     "list.errorForeground": "#FF6B6B",
@@ -119,6 +121,13 @@
 
     "editorBracketMatch.background": "#FF781D1F",
     "editorBracketMatch.border": "#FF9A4A",
+    "editorBracketHighlight.foreground1": "#D4D4D4",
+    "editorBracketHighlight.foreground2": "#569CD6",
+    "editorBracketHighlight.foreground3": "#C586C0",
+    "editorBracketHighlight.foreground4": "#DCDCAA",
+    "editorBracketHighlight.foreground5": "#4EC9B0",
+    "editorBracketHighlight.foreground6": "#CE9178",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#FF4D4D",
 
     "editorOverviewRuler.border": "#00000000",
     "editorOverviewRuler.findMatchForeground": "#FF781D99",
@@ -135,6 +144,22 @@
     "editorGutter.addedBackground": "#4EC9B0",
     "editorGutter.modifiedBackground": "#FF781D",
     "editorGutter.deletedBackground": "#FF4D4D",
+
+    "editorWidget.background": "#252526",
+    "editorWidget.foreground": "#D4D4D4",
+    "editorWidget.border": "#3E3E42",
+    "editorHoverWidget.background": "#252526",
+    "editorHoverWidget.foreground": "#D4D4D4",
+    "editorHoverWidget.border": "#5A3A24",
+    "editorActionList.background": "#252526",
+    "editorActionList.foreground": "#D4D4D4",
+    "editorActionList.focusForeground": "#FFFFFF",
+    "quickInput.background": "#252526",
+    "quickInput.foreground": "#D4D4D4",
+    "quickInputTitle.background": "#2D2D30",
+    "quickInputList.focusBackground": "#5A321F",
+    "quickInputList.focusForeground": "#FFFFFF",
+    "quickInputList.focusIconForeground": "#FF9A4A",
 
     "diffEditor.insertedTextBackground": "#4EC9B022",
     "diffEditor.removedTextBackground": "#FF4D4D2E",
@@ -282,6 +307,16 @@
       }
     },
     {
+      "name": "Operators",
+      "scope": [
+        "keyword.operator",
+        "storage.type.function.arrow"
+      ],
+      "settings": {
+        "foreground": "#D4D4D4"
+      }
+    },
+    {
       "name": "Functions",
       "scope": [
         "entity.name.function",
@@ -346,10 +381,14 @@
       "scope": [
         "meta.decorator",
         "entity.name.function.decorator",
-        "punctuation.decorator"
+        "punctuation.decorator",
+        "meta.decorator entity.name.function",
+        "meta.decorator support.function",
+        "meta.decorator support.type",
+        "meta.decorator variable.other"
       ],
       "settings": {
-        "foreground": "#FF9A4A"
+        "foreground": "#C586C0"
       }
     },
     {
@@ -425,7 +464,12 @@
 
     "function": "#DCDCAA",
     "method": "#DCDCAA",
-    "macro": "#FF9A4A",
+    "macro": "#C586C0",
+    "function.decorator": "#C586C0",
+    "method.decorator": "#C586C0",
+    "class.decorator": "#C586C0",
+    "property.decorator": "#C586C0",
+    "variable.decorator": "#C586C0",
 
     "keyword": "#569CD6",
     "operator": "#D4D4D4",
@@ -439,6 +483,6 @@
     "number": "#B5CEA8",
     "regexp": "#D16969",
 
-    "decorator": "#FF9A4A"
+    "decorator": "#C586C0"
   }
 }

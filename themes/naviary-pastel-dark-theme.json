@@ -51,15 +51,17 @@
     "badge.foreground": "#F8FAFC",
     "progressBar.background": "#FF781D",
 
-    "list.activeSelectionBackground": "#3B4252",
-    "list.activeSelectionForeground": "#F5F7FA",
+    "list.activeSelectionBackground": "#4C566A",
+    "list.activeSelectionForeground": "#F8FAFC",
     "list.inactiveSelectionBackground": "#343B49",
     "list.inactiveSelectionForeground": "#D8DEE9",
-    "list.hoverBackground": "#3B4252AA",
-    "list.hoverForeground": "#F5F7FA",
+    "list.hoverBackground": "#434C5E",
+    "list.hoverForeground": "#F8FAFC",
     "list.highlightForeground": "#FF781D",
+    "list.focusBackground": "#4C566A",
+    "list.focusForeground": "#F8FAFC",
     "list.focusOutline": "#00000000",
-    "list.activeSelectionIconForeground": "#E5E9F0",
+    "list.activeSelectionIconForeground": "#FF9A4A",
     "list.errorForeground": "#FF6B6B",
     "list.warningForeground": "#FFC247",
 
@@ -119,6 +121,13 @@
 
     "editorBracketMatch.background": "#4C566A44",
     "editorBracketMatch.border": "#88C0D0",
+    "editorBracketHighlight.foreground1": "#D8DEE9",
+    "editorBracketHighlight.foreground2": "#88C0D0",
+    "editorBracketHighlight.foreground3": "#C9A4C1",
+    "editorBracketHighlight.foreground4": "#EBCB8B",
+    "editorBracketHighlight.foreground5": "#A3BE8C",
+    "editorBracketHighlight.foreground6": "#D08770",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#FF4D4D",
 
     "editorOverviewRuler.border": "#00000000",
     "editorOverviewRuler.findMatchForeground": "#FF781D99",
@@ -135,6 +144,22 @@
     "editorGutter.addedBackground": "#A3BE8C",
     "editorGutter.modifiedBackground": "#D69400",
     "editorGutter.deletedBackground": "#FF4D4D",
+
+    "editorWidget.background": "#3B4252",
+    "editorWidget.foreground": "#E5E9F0",
+    "editorWidget.border": "#4C566A",
+    "editorHoverWidget.background": "#3B4252",
+    "editorHoverWidget.foreground": "#E5E9F0",
+    "editorHoverWidget.border": "#4C566A",
+    "editorActionList.background": "#3B4252",
+    "editorActionList.foreground": "#E5E9F0",
+    "editorActionList.focusForeground": "#F8FAFC",
+    "quickInput.background": "#3B4252",
+    "quickInput.foreground": "#E5E9F0",
+    "quickInputTitle.background": "#343B49",
+    "quickInputList.focusBackground": "#4C566A",
+    "quickInputList.focusForeground": "#F8FAFC",
+    "quickInputList.focusIconForeground": "#FF9A4A",
 
     "diffEditor.insertedTextBackground": "#A3BE8C22",
     "diffEditor.removedTextBackground": "#FF4D4D2E",
@@ -218,7 +243,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#8792A2",
+        "foreground": "#97A3B4",
         "fontStyle": "italic"
       }
     },
@@ -279,6 +304,16 @@
       ],
       "settings": {
         "foreground": "#D08770"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": [
+        "keyword.operator",
+        "storage.type.function.arrow"
+      ],
+      "settings": {
+        "foreground": "#A7B1C2"
       }
     },
     {
@@ -346,10 +381,14 @@
       "scope": [
         "meta.decorator",
         "entity.name.function.decorator",
-        "punctuation.decorator"
+        "punctuation.decorator",
+        "meta.decorator entity.name.function",
+        "meta.decorator support.function",
+        "meta.decorator support.type",
+        "meta.decorator variable.other"
       ],
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#C9A4C1"
       }
     },
     {
@@ -425,13 +464,18 @@
 
     "function": "#88C0D0",
     "method": "#88C0D0",
-    "macro": "#D08770",
+    "macro": "#C9A4C1",
+    "function.decorator": "#C9A4C1",
+    "method.decorator": "#C9A4C1",
+    "class.decorator": "#C9A4C1",
+    "property.decorator": "#C9A4C1",
+    "variable.decorator": "#C9A4C1",
 
     "keyword": "#D08770",
     "operator": "#A7B1C2",
 
     "comment": {
-      "foreground": "#8792A2",
+      "foreground": "#97A3B4",
       "italic": true
     },
 
@@ -439,6 +483,6 @@
     "number": "#B48EAD",
     "regexp": "#A3BE8C",
 
-    "decorator": "#8FBCBB"
+    "decorator": "#C9A4C1"
   }
 }
