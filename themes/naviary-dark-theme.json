@@ -322,6 +322,24 @@
       }
     },
     {
+      "name": "Typeof operator",
+      "scope": [
+        "keyword.operator.typeof",
+        "keyword.operator.typeof.js",
+        "keyword.operator.typeof.jsx",
+        "keyword.operator.typeof.ts",
+        "keyword.operator.typeof.tsx",
+        "keyword.operator.expression.typeof",
+        "keyword.operator.expression.typeof.js",
+        "keyword.operator.expression.typeof.jsx",
+        "keyword.operator.expression.typeof.ts",
+        "keyword.operator.expression.typeof.tsx"
+      ],
+      "settings": {
+        "foreground": "#D7A6D2"
+      }
+    },
+    {
       "name": "Operators",
       "scope": [
         "keyword.operator",
