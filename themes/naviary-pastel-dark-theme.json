@@ -386,7 +386,7 @@
         "support.variable.property"
       ],
       "settings": {
-        "foreground": "#98C8D6"
+        "foreground": "#D8D0B8"
       }
     },
     {
@@ -496,7 +496,7 @@
     "parameter": "#E5E9F0",
     "variable": "#D8DEE9",
     "variable.readonly": "#E5E9F0",
-    "property": "#98C8D6",
+    "property": "#D8D0B8",
     "property.readonly": "#E5E9F0",
 
     "function": "#98C8D6",

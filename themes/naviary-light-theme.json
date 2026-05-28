@@ -327,7 +327,7 @@
         "meta.property.object entity.name.function"
       ],
       "settings": {
-        "foreground": "#247B80"
+        "foreground": "#7A642B"
       }
     },
     {
@@ -351,7 +351,7 @@
         "support.variable.property"
       ],
       "settings": {
-        "foreground": "#247B80"
+        "foreground": "#006D9C"
       }
     },
     {
@@ -457,11 +457,11 @@
     "parameter": "#56635F",
     "variable": "#24292F",
     "variable.readonly": "#57606A",
-    "property": "#247B80",
+    "property": "#006D9C",
     "property.readonly": "#24292F",
 
-    "function": "#247B80",
-    "method": "#247B80",
+    "function": "#7A642B",
+    "method": "#7A642B",
     "macro": "#8B5AA5",
 
     "keyword": "#B95512",
